@@ -1,0 +1,31 @@
+{
+  "name": "anasceym/node-babel-boilerplate",
+  "version": "1.0.3",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "babel-node src/index",
+    "lint": "eslint src",
+    "test": "mocha"
+  },
+  "bin": {},
+  "author": "anasceym <anasfirdauss@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
